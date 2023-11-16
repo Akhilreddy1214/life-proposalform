@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>customer dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="container-fluid app-num">
+        <div class="container  ">
+            <div class=" application">
+
+                <h1 class=" mr-5  fs-5 fw-bold py-3">YOUR APPLICATION NUMBER IS <a CLASS="text-primary"
+                        href="">0B22185519</a>
+                </h1>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-fluid life-form">
+        <div class="container mt-4 ">
+            <div class="app-form ">
+                
+                <form>
+                    <div class="row form-head ">
+                        <h1 class="fs-5 fw-bold d-flex ">Details Of Life Assured</h1>
+                    </div>
+                    <div class="row mt-4 app-input d-flex justify-content-around align-items-center">
+                        <div class="col-md-4">
+                            <div class="coolinput">
+                                <label for="input" class="text px-1 ">Life Assured First Name<span
+                                        style="color:red">*</span></label>
+                                <input type="text" placeholder="" name="Life-Assured-First-Name" class="input">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="coolinput">
+                                <label for="input" class="text px-2">Life Assured Last Name<span
+                                        style="color:red">*</span></label>
+                                <input type="text" placeholder="" name="Life-Assured-Last-Name" class="input">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="coolinput">
+                                <label for="input" class="text">Gender<span style="color:red">*</span></label>
+                                <input type="text" placeholder="" name="Gender" class="input">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row mt-4 app-input d-flex justify-content-between align-items-center">
+                        <div class="col-md-4">
+                            <div class="coolinput">
+                                <label for="input" class="text px-1 ">Father's Name</label>
+                                <input type="text" placeholder="" name="Father's-Name" class="input">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="coolinput">
+                                <label for="input" class="text">Mother's Name</label>
+                                <input type="text" placeholder="" name="Mother's-Name" class="input">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="coolinput">
+                                <label for="input" class="text">Spouse Name</label>
+                                <input type="text" placeholder="" name="Spouse-Name" class="input">
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row mt-4 app-input d-flex justify-content-between align-items-center">
+                        <div class="col-md-4">
+                            <div class="coolinput">
+                                <label for="input" class="text px-1 ">Date Of Birth<span
+                                        style="color:red">*</span></label>
+                                <input type="date" placeholder="" name="Date-Of-Birth" class="input">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="coolinput">
+                                <label for="input" class="text px-2">marital Status<span
+                                        style="color:red">*</span></label>
+                                <select class="form-select" id="Input" name="marital-Status" >
+                                    <option selected>Choose an option</option>
+                                    <option value="Single">Single</option>
+                                    <option value="Married">Married</option>
+                                    <option value="Divorced">Divorced</option>
+                                    <option value="Widowed">Widowed</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="coolinput">
+                                <label for="input" class="text">Education<span style="color:red">*</span></label>
+                                <select class="form-select" id="Input" name="Education">
+                                    <option selected>Choose an option</option>
+                                    <option value="Post Graduate">Post Graduate</option>
+                                    <option value="Graduate">Graduate</option>
+                                    <option value="Diploma">Diploma</option>
+                                    <option value="12th">12th</option>
+                                    <option value="10th">10th</option>
+                                    <option value="Below 10th ">Below 10th</option>
+                                </select>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row mt-4 app-input d-flex justify-content-around align-items-center">
+                        <div class="col-md-4">
+                            <div class="coolinput">
+                                <label for="input" class="text px-1 ">Occupation<span style="color:red">*</span></label>
+                                <select class="form-select" id="Input" name="Occupation">
+                                    <option selected>Choose an option</option>
+                                    <option value="Salaried">Salaried</option>
+                                    <option value="Agriculturist">Agriculturist</option>
+                                    <option value="Housewife">Housewife</option>
+                                    <option value="ICICI Group Employee">ICICI Group Employee</option>
+                                    <option value="Professional">Professional</option>
+                                    <option value="Retired">Retired</option>
+                                    <option value="Self Employed">Self Employed</option>
+                                    <option value="Student">Student</option>
+                                    <option value="Others">Others</option>
+                                    <option value="Self-employed -Architect">Self-employed -Architect</option>
+                                    <option value="Self-employed -Businessman">Self-employed -Businessman</option>
+                                    <option value="Self-employed -Consultant">Self-employed -Consultant</option>
+                                    <option value="Self-employed -CA">Self-employed -CA</option>
+                                    <option value="Self-employed -Doctor">Self-employed -Doctor</option>
+                                    <option value="Self-employed -Lawyer">Self-employed -Lawyer</option>
+                                    <option value="Self-employed -Doctor">Self-employed -Others</option>
+                                    >
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="coolinput">
+                                <label for="input" class="text px-2">Name Of Organisation<span
+                                        style="color:red">*</span></label>
+                                <select class="form-select" id="Input" name="Name-Of-Organisation">
+                                    <option selected>Choose an option</option>
+                                    <option value=""></option>
+                                    <option value=""></option>
+                                    <option value=""></option>
+                                    <option value=""></option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="coolinput">
+                                <label for="input" class="text">Organisation Type<span
+                                        style="color:red">*</span></label>
+                                <select class="form-select" id="Input" name="Organisation-Type">
+                                    <option selected>Choose an option</option>
+                                    <option value="Government">Government</option>
+                                    <option value="Hindu Undivided Family">Hindu Undivided Family</option>
+                                    <option value="Others">Others</option>
+                                    <option value="Partner">Partner</option>
+                                    <option value="Private Limited">Private Limited</option>
+                                    <option value="Proprietor">Proprietor</option>
+                                    <option value="Public Limited">Public Limited</option>
+                                    <option value="Section 25 Company">Section 25 Company</option>
+                                    <option value="Society">Society</option>
+                                    <option value="Trust">Trust</option>
+                                    <option value="Limited liability Partnership">Limited liability Partnership</option>
+
+                                </select>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row Partnership mt-4 d-flex justify-content-between align-items-center ">
+                        <div class="col-10  ">
+                            <p class="  p-2" style="font-size:17px ; font-weight: 400;text-align:left;">Are you engaged in any of the mentioned industries (Export,
+                                Jewellery, Real Estate, Scrap Dealing, Shipping, Stock Broking & Agriculture)</p>
+                        </div>
+                        <div class="col-2 justify-content-center align-items-center">
+                            <div class="toggle-switch">
+                                <input class="toggle-input" id="toggle" type="checkbox" />
+                                <label class="toggle-label" for="toggle"></label>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="row mt-4 app-input d-flex justify-content-between align-items-center">
+                        <div class="col-md-4">
+                            <div class="coolinput">
+                                <label for="input" class="text px-1 ">PAN<span style="color:red">*</span></label>
+                                <input type="text" placeholder="" name="PAN" class="input">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="coolinput">
+                                <label for="input" class="text px-2">GSTIN</label>
+                                <input type="text" placeholder="" name="GSTIN" class="input">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="coolinput">
+                                <label for="input" class="text">Annual Income(₹)<span style="color:red">*</span></label>
+                                <input type="text" placeholder="" name="Annual-Income(₹)" class="input">
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="row mt-4 app-input d-flex  align-items-center">
+                        <div class="col-md-4">
+                            <div class="coolinput">
+                                <label for="input" class="text px-1 ">CKYC Number</label>
+                                <input type="text" placeholder="" name="CKYC-Number" class="input">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="coolinput">
+                                <label for="input" class="text px-2">Objective of buying policy<span
+                                        style="color:red">*</span></label>
+                                <select class="form-select" id="Input" name="Objective-of-buying-policy">
+                                    <option selected>Choose an option</option>
+                                    <option value="  Both (Protection & Saving)"> Both (Protection & Saving)</option>
+                                    <option value="Others">Others</option>
+                                    <option value="Protection">Protection</option>
+                                    <option value="Retirement">Retirement</option>
+                                    <option value="Saving">Saving</option>
+                                </select>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row mt-4 app-input d-flex  align-items-center">
+                        <div class="col-md-4">
+                            <div class="coolinput">
+                                <label for="input" class="text px-2">Age Proof<span style="color:red">*</span></label>
+                                <select class="form-select" id="Input" name="Age-Proof">
+                                    <option selected>Choose an option</option>
+                                    <option value=" Masked Aadhaar Card Copy ">Masked Aadhaar Card Copy </option>
+                                    <option value="Defence I Card">Defence I Card</option>
+                                    <option value="Driving License (Current)">Driving License (Current)</option>
+                                    <option value="Employers Certificate">Employers Certificate</option>
+                                    <option value="Goverment Employee ID">Goverment Employee ID</option>
+                                    <option value=" Government Registered document or ID Proof ">Government Registered document or ID Proof </option>
+                                    <option value="Municipal Record">Municipal Record</option>
+                                    <option value=" PAN card">PAN card</option>
+                                    <option value="Passport">Passport</option>
+                                    <option value="School/College Record">School/College Record</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="">
+                                <svg height="35px" width="35px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 496 496" xml:space="preserve" width="64px" height="64px" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path style="fill:#6D6D6D;" d="M484.8,47.6H287.2c-6.4,0-12,1.6-18.4,11.2l-10.4,16H24.8C11.2,74.8,0,86,0,99.6V414 c0,13.6,11.2,24.8,24.8,24.8h446.4c13.6,0,24.8-11.2,24.8-24.8V170V99.6V58C496,52.4,491.2,47.6,484.8,47.6z"></path> <path style="fill:#565656;" d="M485.6,371.6c6.4-4.8,10.4-12,10.4-20V170V99.6V58c0-6.4-4.8-11.2-11.2-11.2H287.2 c-6.4,0-12,1.6-18.4,11.2l-10.4,16H24.8C12,74,1.6,83.6,0,95.6L485.6,371.6z"></path> <path style="fill:#262523;" d="M20.8,107.6l464.8,264c6.4-4.8,10.4-12,10.4-20V170v-44.8l-30.4-17.6 C465.6,107.6,20.8,107.6,20.8,107.6z"></path> <rect x="36" y="107.6" style="fill:#FFFFFF;" width="424" height="297.6"></rect> <polygon style="fill:#EFEFEF;" points="460,397.2 258.4,397.2 258.4,107.6 460,107.6 "></polygon> <path style="fill:#478bc2;" d="M496,424.4c0,13.6-11.2,24.8-24.8,24.8H24.8C11.2,449.2,0,438.8,0,424.4l8-252 c0-13.6,11.2-24.8,24.8-24.8H464c13.6,0,24.8,11.2,24.8,24.8L496,424.4z"></path> <path style="fill:#1080DD;" d="M492.8,437.2L9.6,162.8C8.8,166,8,169.2,8,172.4l-8,252c0,13.6,11.2,24.8,24.8,24.8h446.4 C480,449.2,488,444.4,492.8,437.2z"></path> <path style="fill:#478bc2;" d="M298.4,297.2L256,254.8c-4.8-4.8-12-4.8-16.8,0l-42.4,42.4c-4.8,4.8-4.8,12,0,16.8s12,4.8,16.8,0 l22.4-22.4v84.8c0,6.4,5.6,12,12,12c6.4,0,12-5.6,12-12v-85.6l22.4,22.4c2.4,2.4,5.6,3.2,8,3.2s5.6-0.8,8-3.2 C303.2,309.2,303.2,302,298.4,297.2z"></path> <path style="fill:#FFFFFF;" d="M298.4,263.6L256,221.2c-4.8-4.8-12-4.8-16.8,0l-42.4,42.4c-4.8,4.8-4.8,12,0,16.8s12,4.8,16.8,0 L236,258v84.8c0,6.4,5.6,12,12,12c6.4,0,12-5.6,12-12V258l22.4,22.4c2.4,2.4,5.6,3.2,8,3.2s5.6-0.8,8-3.2 C303.2,275.6,303.2,268.4,298.4,263.6z"></path> </g></svg></a>
+                        </div>
+                    </div>
+
+
+                    <div class="row mt-4 app-input d-flex  align-items-center">
+                        <div class="col-md-4">
+                            <div class="coolinput">
+                                <label for="input" class="text px-2">Address Proof<span
+                                        style="color:red">*</span></label>
+                                <select class="form-select" id="Input" name="Address-Proof">
+                                    <option selected>Choose an option</option>
+                                    <option value=" Masked Aadhaar Card Copy "> Masked Aadhaar Card Copy</option>
+                                    <option value="Driving License (Current)">Driving License (Current)</option>
+                                    <option value="Passport (Current)">Passport (Current)</option>
+                                    <option value="Voters ID Card">Voters ID Card</option>
+                                   
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="">
+                                <svg height="35px" width="35px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 496 496" xml:space="preserve" width="64px" height="64px" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path style="fill:#6D6D6D;" d="M484.8,47.6H287.2c-6.4,0-12,1.6-18.4,11.2l-10.4,16H24.8C11.2,74.8,0,86,0,99.6V414 c0,13.6,11.2,24.8,24.8,24.8h446.4c13.6,0,24.8-11.2,24.8-24.8V170V99.6V58C496,52.4,491.2,47.6,484.8,47.6z"></path> <path style="fill:#565656;" d="M485.6,371.6c6.4-4.8,10.4-12,10.4-20V170V99.6V58c0-6.4-4.8-11.2-11.2-11.2H287.2 c-6.4,0-12,1.6-18.4,11.2l-10.4,16H24.8C12,74,1.6,83.6,0,95.6L485.6,371.6z"></path> <path style="fill:#262523;" d="M20.8,107.6l464.8,264c6.4-4.8,10.4-12,10.4-20V170v-44.8l-30.4-17.6 C465.6,107.6,20.8,107.6,20.8,107.6z"></path> <rect x="36" y="107.6" style="fill:#FFFFFF;" width="424" height="297.6"></rect> <polygon style="fill:#EFEFEF;" points="460,397.2 258.4,397.2 258.4,107.6 460,107.6 "></polygon> <path style="fill:#478bc2;" d="M496,424.4c0,13.6-11.2,24.8-24.8,24.8H24.8C11.2,449.2,0,438.8,0,424.4l8-252 c0-13.6,11.2-24.8,24.8-24.8H464c13.6,0,24.8,11.2,24.8,24.8L496,424.4z"></path> <path style="fill:#1080DD;" d="M492.8,437.2L9.6,162.8C8.8,166,8,169.2,8,172.4l-8,252c0,13.6,11.2,24.8,24.8,24.8h446.4 C480,449.2,488,444.4,492.8,437.2z"></path> <path style="fill:#478bc2;" d="M298.4,297.2L256,254.8c-4.8-4.8-12-4.8-16.8,0l-42.4,42.4c-4.8,4.8-4.8,12,0,16.8s12,4.8,16.8,0 l22.4-22.4v84.8c0,6.4,5.6,12,12,12c6.4,0,12-5.6,12-12v-85.6l22.4,22.4c2.4,2.4,5.6,3.2,8,3.2s5.6-0.8,8-3.2 C303.2,309.2,303.2,302,298.4,297.2z"></path> <path style="fill:#FFFFFF;" d="M298.4,263.6L256,221.2c-4.8-4.8-12-4.8-16.8,0l-42.4,42.4c-4.8,4.8-4.8,12,0,16.8s12,4.8,16.8,0 L236,258v84.8c0,6.4,5.6,12,12,12c6.4,0,12-5.6,12-12V258l22.4,22.4c2.4,2.4,5.6,3.2,8,3.2s5.6-0.8,8-3.2 C303.2,275.6,303.2,268.4,298.4,263.6z"></path> </g></svg></a>
+                        </div>
+                    </div>
+
+
+                    <div class="row mt-4 app-input d-flex  align-items-center">
+                        <div class="col-md-4 ">
+                            <div class="coolinput">
+                                <label for="input" class="text px-2">Identity Proof<span
+                                        style="color:red">*</span></label>
+                                <select class="form-select" id="Input" name="Identity-Proof">
+                                    <option selected>Choose an option</option>
+                                    <option value="Masked Aadhaar Card Copy  "> Masked Aadhaar Card Copy</option>
+                                    <option value="Driving License (Current)">Driving License (Current)</option>
+                                    <option value="Job Card Issued by NREGA">Job Card Issued by NREGA</option>
+                                    <option value="Passport (Current)">Passport (Current)</option>
+                                    <option value="Voters ID Card">Voters ID Card</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4 ">
+                            <a href="">
+                                <svg height="35px" width="35px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 496 496" xml:space="preserve" width="64px" height="64px" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path style="fill:#6D6D6D;" d="M484.8,47.6H287.2c-6.4,0-12,1.6-18.4,11.2l-10.4,16H24.8C11.2,74.8,0,86,0,99.6V414 c0,13.6,11.2,24.8,24.8,24.8h446.4c13.6,0,24.8-11.2,24.8-24.8V170V99.6V58C496,52.4,491.2,47.6,484.8,47.6z"></path> <path style="fill:#565656;" d="M485.6,371.6c6.4-4.8,10.4-12,10.4-20V170V99.6V58c0-6.4-4.8-11.2-11.2-11.2H287.2 c-6.4,0-12,1.6-18.4,11.2l-10.4,16H24.8C12,74,1.6,83.6,0,95.6L485.6,371.6z"></path> <path style="fill:#262523;" d="M20.8,107.6l464.8,264c6.4-4.8,10.4-12,10.4-20V170v-44.8l-30.4-17.6 C465.6,107.6,20.8,107.6,20.8,107.6z"></path> <rect x="36" y="107.6" style="fill:#FFFFFF;" width="424" height="297.6"></rect> <polygon style="fill:#EFEFEF;" points="460,397.2 258.4,397.2 258.4,107.6 460,107.6 "></polygon> <path style="fill:#478bc2;" d="M496,424.4c0,13.6-11.2,24.8-24.8,24.8H24.8C11.2,449.2,0,438.8,0,424.4l8-252 c0-13.6,11.2-24.8,24.8-24.8H464c13.6,0,24.8,11.2,24.8,24.8L496,424.4z"></path> <path style="fill:#1080DD;" d="M492.8,437.2L9.6,162.8C8.8,166,8,169.2,8,172.4l-8,252c0,13.6,11.2,24.8,24.8,24.8h446.4 C480,449.2,488,444.4,492.8,437.2z"></path> <path style="fill:#478bc2;" d="M298.4,297.2L256,254.8c-4.8-4.8-12-4.8-16.8,0l-42.4,42.4c-4.8,4.8-4.8,12,0,16.8s12,4.8,16.8,0 l22.4-22.4v84.8c0,6.4,5.6,12,12,12c6.4,0,12-5.6,12-12v-85.6l22.4,22.4c2.4,2.4,5.6,3.2,8,3.2s5.6-0.8,8-3.2 C303.2,309.2,303.2,302,298.4,297.2z"></path> <path style="fill:#FFFFFF;" d="M298.4,263.6L256,221.2c-4.8-4.8-12-4.8-16.8,0l-42.4,42.4c-4.8,4.8-4.8,12,0,16.8s12,4.8,16.8,0 L236,258v84.8c0,6.4,5.6,12,12,12c6.4,0,12-5.6,12-12V258l22.4,22.4c2.4,2.4,5.6,3.2,8,3.2s5.6-0.8,8-3.2 C303.2,275.6,303.2,268.4,298.4,263.6z"></path> </g></svg></a>
+                        </div>
+                    </div>
+
+
+
+                    <div class="row Partnership mt-4 d-flex justify-content-center align-items-center ">
+                        <div class="col-10 d-flex  align-items-center ">
+                            <p class="  p-2" style="font-size: 17px; font-weight: 500; text-align: left;">Are you a Politically Exposed Person</p>
+                        </div>
+                        <div class="col-2 d-flex justify-content-center align-items-center">
+                            <div class="toggle-switch">
+                                <input class="toggle-input" id="toggle-1" type="checkbox" />
+                                <label class="toggle-label" for="toggle-1"></label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row  mt-2  align-items-center ">
+                        <div class="col-md-12">
+                            <p style="font-weight: 600; color: blue; font-size: 15px;">Politically Exposed Persons (PEP) are individuals who have been entrusted with prominent public functions by a foreign country, including the heads of States of Governments, senior politicians, senior government or judicial or military officers, senior cxecutives of state-owned corporations and important political party officials Including their family members and close relatives.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="row Partnership mt-2 d-flex justify-content-center align-items-center ">
+                        <div class="col-10 d-flex   align-items-center ">
+                            <p   style="font-weight: 400; font-size: 17px; padding: 5px; text-align:left;">Have you ever been or currently being investigated, charge sheeted, prosecuted or convicted or acquittal or having pending charges in respect of any criminalcivil offences in any court of law in India or abroad? If Yes. give details</p>
+                        </div>
+                        <div class="col-2 d-flex justify-content-center align-items-center">
+                            <div class="toggle-switch">
+                                <input class="toggle-input" id="toggle-2" type="checkbox" />
+                                <label class="toggle-label" for="toggle-2"></label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row Partnership mt-2 d-flex justify-content-center align-items-center ">
+                        <div class="col-10 d-flex  align-items-center ">
+                            <p  style="font-weight: 400; font-size: 18px; padding: 5px; text-align:center;">Do you have an Electronic Insurance Account?</p>
+                        </div>
+                        <div class="col-2 d-flex justify-content-center align-items-center">
+                            <div class="toggle-switch">
+                                <input class="toggle-input" id="toggle-3" type="checkbox" />
+                                <label class="toggle-label" for="toggle-3"></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row Partnership mt-2 d-flex justify-content-center align-items-center ">
+                        <div class="col-md-10 d-flex  align-items-center ">
+                            <p  style="font-weight: 400; font-size: 18px; padding: 5px; text-align:center;">Premium paid by a person other than Proposer (If yes, please submit third party declaration and Payer's KYC)</p>
+                        </div>
+                        <div class="col-md-2 d-flex justify-content-center align-items-center">
+                            <div class="toggle-switch">
+                                <input class="toggle-input" id="toggle-4" type="checkbox" />
+                                <label class="toggle-label" for="toggle-4"></label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row  mt-2  align-items-center ">
+                        <div class="col-md-12">
+                            <p style="font-weight: 600; color: blue; font-size: 15px;">Electronic Insurance Account (A) is a digital repository of all your life insurance policies. If the hard copy of your policy document ever gets lost or damaged, you con access the digital version in your ELA account. We recommend that you opt for an ELA, it is absolutely FREE</p>
+                        </div>
+                    </div>
+
+                    <div class="row Partnership mt-2 d-flex justify-content-center align-items-center ">
+                        <div class="col-md-12 d-flex  align-items-center ">
+                            <p  style="font-weight: 400; font-size: 18px; padding: 5px; text-align:left;">Select any one Insurance Repository for opening e-Insurance Account.</p>
+                        </div>
+                        
+                        
+                    </div>
+
+                    <div class="row mt-3 app-input d-flex  align-items-center">
+                        <div class="col-md-5 ">
+                            <div class="coolinput">
+                                <label for="input" class="text px-2">Select Repository<span
+                                        style="color:red">*</span></label>
+                                <select class="form-select" id="Input" name="Select-Repository">
+                                    <option selected>Choose an option</option>
+                                    <option value="Masked Aadhaar Card Copy  "> Masked Aadhaar Card Copy</option>
+                                    <option value="Driving License (Current)">Driving License (Current)</option>
+                                    <option value="Job Card Issued by NREGA">Job Card Issued by NREGA</option>
+                                    <option value="Passport (Current)">Passport (Current)</option>
+                                    <option value="Voters ID Card">Voters ID Card</option>
+                                </select>
+                            </div>
+                        </div>
+                       
+                    </div>
+
+                    <div class="row form-head mt-5 ">
+                        <h1 class="fs-5 fw-bold  ">Nominee Details</h1>
+                    </div>
+                    <div class="row Partnership mt-3 d-flex justify-content-center align-items-center ">
+                        <div class="col-10 d-flex  align-items-center ">
+                            <p  style="font-weight: 400; font-size: 17px; padding: 5px; text-align:left;">I would like to take this policy under Married Women's Property Act (MWPA)</p>
+                        </div>
+                        <div class="col-2 d-flex justify-content-center align-items-center">
+                            <div class="toggle-switch">
+                                <input class="toggle-input" id="toggle-5" type="checkbox" />
+                                <label class="toggle-label" for="toggle-5"></label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4 app-input d-flex justify-content-around align-items-center">
+                        <div class="col-md-4">
+                            <div class="coolinput">
+                                <label for="input" class="text px-1 ">Nominee First Name<span
+                                        style="color:red">*</span></label>
+                                <input type="text" placeholder="" name="Nominee-First-Name" class="input">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="coolinput">
+                                <label for="input" class="text px-2">Nominee Last Name<span
+                                        style="color:red">*</span></label>
+                                <input type="text" placeholder="" name="Nominee-Last-Name" class="input">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="coolinput">
+                                <label for="input" class="text">Gender<span style="color:red">*</span></label>
+                                <select class="form-select" id="Input" name="Gender">
+                                    <option selected>Choose an option</option>
+                                    <option value="FEMALE">FEMALE</option>
+                                    <option value="MALE">MALE</option>
+                                    </select>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row mt-4 app-input d-flex justify-content-between align-items-center">
+                      
+                        <div class="col-md-4">
+                            <div class="coolinput">
+                                <label for="input" class="text px-2">Your nominee is your<span
+                                        style="color:red">*</span></label>
+                                <select class="form-select" id="Input" name="Your-nominee-is-your">
+                                    <option selected>Choose an option</option>
+                                    <option value="WIFE">WIFE</option>
+                                    <option value="AUNT">AUNT</option>
+                                    <option value="DAUGHTER">DAUGHTER</option>
+                                    <option value="GRAND DAUGHTER">GRAND DAUGHTER</option>
+                                    <option value="GRAND MOTHER">GRAND MOTHER</option>
+                                    <option value="MOTHER">MOTHER</option>
+                                    <option value="NIECE">NIECE</option>
+                                    <option value="SISTER">SISTER</option>
+                                    <option value="SISTER IN LAW">SISTER IN LAW</option>
+                                    <option value="PARTNER">PARTNER</option>
+                                    
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="coolinput">
+                                <label for="input" class="text px-1 ">Nominee's Date Of Birth<span
+                                        style="color:red">*</span></label>
+                                <input type="date" placeholder="" name="Nominee's-Date-Of-Birth" class="input">
+                            </div>
+                        </div>
+                        <div class="col-md-4"></div>
+                        </div>
+
+
+                        
+                    <div class="row form-head mt-4 ">
+                        <h1 class="fs-5 fw-bold  ">Nominee Details</h1>
+                    </div>
+                    <div class="row Partnership mt-3 d-flex justify-content-center align-items-center ">
+                        <div class="col-10 d-flex flex-column  align-items-center ">
+                            <p  style="font-weight: 400; font-size: 17px; padding: 5px; text-align:left;">Details of Life Insurance/Mediclaim/Health/Personal Accident policies of the life to be Assured held/ applied with ICICI Prudential/ other companies.</p>
+                            <p style="font-size: 14px ; font-weight: 500; color: rgb(255, 183, 0); text-align:left;">Have any such proposals on your life/application for reinstatement ever been accepted with extra premium, postponement, decline, withdrawal, non completion, been offered on modified terms. If Yes, please provide details.</p>
+                        </div>
+                        <div class="col-2 d-flex justify-content-center align-items-center">
+                            <div class="toggle-switch">
+                                <input class="toggle-input" id="toggle-5" type="checkbox" />
+                                <label class="toggle-label" for="toggle-5"></label>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="text-center mt-2">
+                      <a href="./lifeproposal2.html" class="btn btn-danger fs-5 px-4 " >
+                        Continue
+                          </a>  
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script type="module" src="lifeform.js"></script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>customer dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+      integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="container-fluid app-num">
+      <div class="container">
+        <div class="application">
+          <h1 class="mr-5 fs-5 fw-bold py-3">
+            YOUR APPLICATION NUMBER IS
+            <a class="text-primary" href="">0B22185519</a>
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid life-form">
+      <div class="container mt-4">
+        <div class="app-form">
+          <div class="row form-head">
+            <h1 class="fs-5 fw-bold">My FATCA and CRS details</h1>
+          </div>
+
+          <div
+            class="row Partnership mt-4 d-flex justify-content-between align-items-center"
+          >
+            <div class="col-10">
+              <p
+                class="p-2"
+                style="font-size: 18px; font-weight: 400; text-align: left"
+              >
+                I/we are a tax resident of Objective-of-buying-policy India
+              </p>
+            </div>
+            <div class="col-2 justify-content-center align-items-center">
+              <input
+                class="switch"
+                type="checkbox"
+                id="switch-1"
+                checked="true"
+              />
+            </div>
+          </div>
+
+          <div
+            class="row mt-2 app-input d-flex justify-content-around align-items-center"
+          >
+            <div class="col-md-4">
+              <div class="coolinput">
+                <label for="input" class="text px-1"
+                  >TIN/PAN Issuing Country<span style="color: red"
+                    >*</span
+                  ></label
+                >
+                <input
+                  type="text"
+                  placeholder=""
+                  name="Life-Assured-First-Name"
+                  class="input"
+                />
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="coolinput">
+                <label for="input" class="text px-2"
+                  >TIN/PAN<span style="color: red">*</span></label
+                >
+                <input
+                  type="text"
+                  placeholder=""
+                  name="Life-Assured-Last-Name"
+                  class="input"
+                />
+              </div>
+            </div>
+            <div class="col-md-4"></div>
+          </div>
+
+          <div
+            class="row Partnership mt-3 d-flex justify-content-between align-items-center"
+          >
+            <div class="col-10">
+              <p
+                class="p-2"
+                style="font-size: 18px; font-weight: 400; text-align: left"
+              >
+                My birth country is India
+              </p>
+            </div>
+            <div class="col-2 justify-content-center align-items-center">
+              <input
+                class="switch"
+                type="checkbox"
+                id="switch-2"
+                checked="true"
+              />
+            </div>
+          </div>
+          <div class="row FATCA mt-2">
+            <div class="col-md-12 d-flex">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="FATCA-CHECK"
+                value=""
+                aria-label="..."
+              />
+              <p style="font-size: 18px; font-weight: 400">
+                This information is required to be collected as per The Income
+                Tax Act, 1961 to comply with FATCA and CRS regulations. We will
+                continue to report the above information 'As is' till we receive
+                any change request from you*
+              </p>
+            </div>
+          </div>
+
+          <div class="row mt-4 form-head">
+            <h1 class="fs-5 fw-bold">Mailing/Communication Address</h1>
+          </div>
+
+          <div
+            class="row mt-3 app-input d-flex justify-content-between align-items-center"
+          >
+            <div class="col-md-12">
+              <div class="coolinput">
+                <label for="input" class="text px-1"
+                  >Line1<span style="color: red">*</span></label
+                >
+                <input
+                  type="text"
+                  placeholder=""
+                  name="Line1"
+                  class="input"
+                  maxlength="30"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="row mt-4 app-input d-flex justify-content-between align-items-center"
+          >
+            <div class="col-md-12">
+              <div class="coolinput">
+                <label for="input" class="text px-1">Line2</label>
+                <input
+                  type="text"
+                  placeholder=""
+                  name="Line2"
+                  class="input"
+                  maxlength="30"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="row mt-4 app-input d-flex justify-content-between align-items-center"
+          >
+            <div class="col-md-12">
+              <div class="coolinput">
+                <label for="input" class="text px-1">Line3</label>
+                <input
+                  type="text"
+                  placeholder=""
+                  name="Line3"
+                  class="input"
+                  maxlength="50"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="row mt-4 app-input d-flex justify-content-between align-items-center"
+          >
+            <div class="col-md-12">
+              <div class="coolinput">
+                <label for="input" class="text px-1">Landmark</label>
+                <input
+                  type="text"
+                  placeholder=""
+                  name="Landmark"
+                  class="input"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="row mt-4 app-input d-flex justify-content-between align-items-center"
+          >
+            <div class="col-md-6">
+              <div class="coolinput">
+                <label for="input" class="text px-1"
+                  >Pincode<span style="color: red">*</span></label
+                >
+                <input
+                  type="text"
+                  placeholder=""
+                  name="Pincode"
+                  class="input"
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="coolinput">
+                <label for="input" class="text px-1"
+                  >City<span style="color: red">*</span></label
+                >
+                <input type="text" placeholder="" name="City" class="input" />
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="row mt-4 app-input d-flex justify-content-between align-items-center"
+          >
+            <div class="col-md-6">
+              <div class="coolinput">
+                <label for="input" class="text px-1"
+                  >State<span style="color: red">*</span></label
+                >
+                <input type="text" placeholder="" name="State" class="input" />
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="coolinput">
+                <label for="input" class="text px-1"
+                  >Country<span style="color: red">*</span></label
+                >
+                <input
+                  type="text"
+                  placeholder=""
+                  name="Country"
+                  class="input"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="row mt-4 form-head">
+            <h1 class="fs-5 fw-bold">Phone and Email</h1>
+          </div>
+
+          <div
+            class="row mt-3 app-input d-flex justify-content-between align-items-center"
+          >
+            <div class="col-md-6">
+              <div class="coolinput">
+                <label for="input" class="text px-1"
+                  >Phone<span style="color: red">*</span></label
+                >
+                <input
+                  type="tel"
+                  id="mobile"
+                  name="mobile"
+                  placeholder="Mobile Number"
+                  class="input"
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="coolinput">
+                <label for="input" class="text px-1"
+                  >Email<span style="color: red">*</span></label
+                >
+                <input type="text" placeholder="" name="Email" class="input" />
+              </div>
+            </div>
+          </div>
+
+          <div class="row mt-4 form-head">
+            <h1 class="fs-5 fw-bold">Aadhaar Details</h1>
+          </div>
+
+          <div class="row mt-3 app-input d-flex align-items-center">
+            <div class="col-md-5">
+              <div class="coolinput">
+                <label for="input" class="text px-2"
+                  >Aadhaar Options<span style="color: red">*</span></label
+                >
+                <select class="form-select" id="Input" name="Select-Repository">
+                  <option selected>Choose an option</option>
+                  <option value=" Virtual ID ">Virtual ID</option>
+                  <option value="Aadhaar Number">Aadhaar Number</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mt-5 form-head">
+            <h1 class="fs-5 fw-bold">Permanent Address</h1>
+          </div>
+
+          <div
+            class="row Partnership mt-2 d-flex justify-content-between align-items-center"
+          >
+            <div class="col-10">
+              <p
+                class="p-2"
+                style="font-size: 18px; font-weight: 400; text-align: left"
+              >
+                Same as Mailing/Communication Address
+              </p>
+            </div>
+            <div class="col-2 justify-content-center align-items-center">
+              <input
+                class="switch"
+                type="checkbox"
+                id="switch-3"
+                checked="true"
+              />
+            </div>
+          </div>
+
+          <div class="address-hidden" id="address-hidden">
+            <div
+              class="row mt-3 app-input d-flex justify-content-between align-items-center"
+            >
+              <div class="col-md-12">
+                <div class="coolinput">
+                  <label for="input" class="text px-1"
+                    >Line1<span style="color: red">*</span></label
+                  >
+                  <input
+                    type="text"
+                    placeholder=""
+                    name="Line1"
+                    class="input"
+                    maxlength="30"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row mt-4 app-input d-flex justify-content-between align-items-center"
+            >
+              <div class="col-md-12">
+                <div class="coolinput">
+                  <label for="input" class="text px-1">Line2</label>
+                  <input
+                    type="text"
+                    placeholder=""
+                    name="Line2"
+                    class="input"
+                    maxlength="30"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row mt-4 app-input d-flex justify-content-between align-items-center"
+            >
+              <div class="col-md-12">
+                <div class="coolinput">
+                  <label for="input" class="text px-1">Line3</label>
+                  <input
+                    type="text"
+                    placeholder=""
+                    name="Line3"
+                    class="input"
+                    maxlength="50"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row mt-4 app-input d-flex justify-content-between align-items-center"
+            >
+              <div class="col-md-12">
+                <div class="coolinput">
+                  <label for="input" class="text px-1">Landmark</label>
+                  <input
+                    type="text"
+                    placeholder=""
+                    name="Landmark"
+                    class="input"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row mt-4 app-input d-flex justify-content-between align-items-center"
+            >
+              <div class="col-md-6">
+                <div class="coolinput">
+                  <label for="input" class="text px-1"
+                    >Pincode<span style="color: red">*</span></label
+                  >
+                  <input
+                    type="text"
+                    placeholder=""
+                    name="Pincode"
+                    class="input"
+                  />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="coolinput">
+                  <label for="input" class="text px-1"
+                    >City<span style="color: red">*</span></label
+                  >
+                  <input type="text" placeholder="" name="City" class="input" />
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row mt-4 app-input d-flex justify-content-between align-items-center"
+            >
+              <div class="col-md-6">
+                <div class="coolinput">
+                  <label for="input" class="text px-1"
+                    >State<span style="color: red">*</span></label
+                  >
+                  <input
+                    type="text"
+                    placeholder=""
+                    name="State"
+                    class="input"
+                  />
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="coolinput">
+                  <label for="input" class="text px-1"
+                    >Country<span style="color: red">*</span></label
+                  >
+                  <input
+                    type="text"
+                    placeholder=""
+                    name="Country"
+                    class="input"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="row lifeform-btn mt-3 mb-2 text-center mt-2 d-flex justify-content-center align-items-center"
+          >
+            <div
+              class="col-md-6 d-flex justify-content-evenly align-items-center"
+            >
+              <a href=""
+                ><button class="btn btn-light btn-outline-dark fs-4 px-4 py-1">
+                  Review
+                </button></a
+              >
+              <a href="./life healthand habits.html"
+                ><button class="btn btn-danger fs-4 px-4 py-1">
+                  Continue
+                </button></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="lifeform.js"></script>
+  </body>
+</html>
